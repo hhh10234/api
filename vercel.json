@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "./index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/upload/Ass",
+      "dest": "./index.js"
+    },
+    {
+      "src": "/upload/Mark",
+      "dest": "./index.js"
+    },
+
+    {
+      "src": "/upload/renewFolder",
+      "dest": "./index.js"
+    },
+    {
+      "src": "/upload/newFolder",
+      "dest": "./index.js"
+    }
+  ]
+}
